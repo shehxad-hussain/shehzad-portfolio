@@ -10,8 +10,6 @@ import { FaDev } from 'react-icons/fa6';
 
 
 
-
-
 function Banner() {
   useEffect(() => {
     AOS.init({
@@ -37,10 +35,8 @@ function Banner() {
                     2000,
                     'Front-End Developer',
                     2000,
-                    // 'Back-End Developer',
-                    // 2000,
-                    // 'Full-Stack Developer',
-                    // 2000,
+                    'Full-Stack Developer',
+                    2000,
                   ]}
                     speed={50}
                     className='text-gradient'
