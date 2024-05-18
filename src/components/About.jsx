@@ -1,9 +1,9 @@
 import { useInView } from "react-intersection-observer";
-import React from "react";
+import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import CountUp from "react-countup";
-import { useEffect } from "react";
+import myAbout from '../assets/Untitled design.png';
 
 function About() {
   const [ref, inView] = useInView({
@@ -15,22 +15,20 @@ function About() {
       easing: "ease-in-out",
     });
   }, []);
+
   return (
     <section id="about" className="section lg:mb-0 mb-40" ref={ref}>
       <div className="container mx-auto p-5">
-        <div className="flex flex-col lg:flex-row gap-y-10 lg:items-center lg:gap-x-20 lg:gap-y-0 h-screen">
-          <div
-            data-aos="fade-right"
-            data-aos-duration="2000"
-            className="flex-1 bg-about bg-contain 
-        bg-no-repeat h-[640px] mix-blend-lighten bg-top"
-          >
-            {" "}
+        <div className="flex flex-col lg:flex-row gap-y-10 lg:items-center lg:gap-x-20 lg:gap-y-0 min-h-screen">
+          <div data-aos="fade-right" data-aos-duration="2000" className="flex-1 flex items-center justify-center">
+            <img
+              src={myAbout}
+              alt="About"
+              className="w-full h-auto max-h-[500px] object-cover rounded-lg shadow-md"
+            />
           </div>
-          {/**image */}
-
           <div data-aos="fade-down" data-aos-duration="2000" className="flex-1">
-            <h2 className="h2 text-4xl text-accent text-bold">About ME</h2>
+            <h2 className="h2 text-4xl text-accent font-bold">About Me</h2>
             <h3 className="text-xl lg:text-2xl mb-5">
               Hello everybody, my name is Shehzad Hussain. I am a Front End
               Developer with three years of experience, currently studying at
@@ -55,8 +53,7 @@ function About() {
               </div>
               <div>
                 <div className="text-[40px] font-secondary text-gradient mb-2">
-                  {inView ? <CountUp start={0} end={20} duration={8} /> : null}{" "}
-                  +
+                  {inView ? <CountUp start={0} end={20} duration={8} /> : null} +
                 </div>
                 <div className="font-secondary text-md tracking-[1px]">
                   Projects <br /> completed
@@ -64,8 +61,7 @@ function About() {
               </div>
               <div>
                 <div className="text-[40px] font-secondary text-gradient mb-2">
-                  {inView ? <CountUp start={100} end={1} duration={5} /> : null}{"5 "}
-                  +
+                  {inView ? <CountUp start={100} end={1} duration={5} /> : null} 5 +
                 </div>
                 <div className="font-secondary text-md tracking-[1px]">
                   Clients
@@ -74,7 +70,7 @@ function About() {
             </div>
             <div className="flex gap-x-8 items-center">
               <a href="#contact">
-                <button className="btn btn-lg h-full p-4  text-xl">
+                <button className="btn btn-lg h-full p-4 text-xl">
                   Contact With Me
                 </button>
               </a>

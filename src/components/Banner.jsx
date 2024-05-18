@@ -1,6 +1,6 @@
 import React ,{useEffect} from 'react'
 import avatar from '../assets/avatar.png'
-import {FaGithub,FaLinkedin,FaFacebook,FaWhatsapp, FaTwitter} from 'react-icons/fa'
+import {FaGithub,FaLinkedin, FaTwitter} from 'react-icons/fa'
 
 import { TypeAnimation } from 'react-type-animation'
 

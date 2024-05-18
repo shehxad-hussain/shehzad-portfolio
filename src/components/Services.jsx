@@ -15,16 +15,16 @@ function Services() {
   }, []);
   const services =[
     {
-      name:"UIUX Design",
-      text:"I has some Experience in making ui_ux templates and Marketing them."
-    },
-    {
       name:"Front End",
       text:"I can deal with all front end templates and convert them to websites by React js and other ways and Receive Data from apis."
     },
     {
+      name:"UIUX Design",
+      text:"I has some Experience in making ui_ux templates and Marketing them."
+    },
+    {
       name:"Back End",
-      text:"I also can deal with Backend projects and create different databases and Pass Them to Front End Developer to Show the data."
+      text:"I can also handle backend projects, create various databases, and pass them to frontend developers to display the data."
     },
     {
       name:"Full Stack",
@@ -36,8 +36,8 @@ function Services() {
   <div className='container mx-auto p-5'>
     <div className='flex flex-col lg:flex-row'>
       <div   data-aos="zoom-in" data-aos-duration='2000' className='flex-1 bg-services bg-bottom bg-no-repeat mix-blend-lighten mb-16 lg:mb-0'>
-        <h2 className='h2 text-accent mb-6'>What I Do </h2>
-        <h3 className='h3 max-w-[455px]  mb-16'>Hello everybody ,My name is Shehzad Hussain , Iam a Front End Developer , Iam Studying at WeSchool For Applied Technology At The 3th grade .</h3>
+        <h2 className='h2 text-accent mb-6 font-bold'>What I Do </h2>
+        <h3 className='h3 max-w-[455px]  mb-16'>Hello everybody, my name is Shehzad Hussain. I am a Front End Developer with three years of experience, currently studying at University for Information Technology in the 4th grade</h3>
       <button className='btn btn-sm'>See my work</button>
       </div>
       <div  data-aos="flip-right" data-aos-duration='2000' className='flex-1'>
