@@ -18,11 +18,10 @@ function Projects() {
         <div className='flex items-end flex-col lg:flex-row gap-x-10 '>
           <div  data-aos="fade-right" data-aos-duration='2000' className='flex-1 flex flex-col gap-y-12 mb-12 lg:mb-0'>
             <div className='flex flex-col'>
-            <h2 className='h2 font-secondary text-accent leading-tight'>My Latest <br /> Projects</h2>
+            <h2 className='h2 font-secondary text-accent leading-tight font-bold'>My Latest <br /> Projects</h2>
            <p className='max-w-sm mb-16'>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, ipsum laboriosam. Consequuntur ex maxime ut eos aut fugiat aliquam cumque illum ipsum similique, velit esse.
-           </p>
-           <a href="https://portfolio-one-ecru-41.vercel.app/#Projects"><button className='btn p-4 w-1/3 h-full btn-sm'> View All Projects </button></a>
+           I developed a dynamic web application using React and Tailwind CSS, focusing on creating a responsive and intuitive user interface. The project showcases my skills in frontend development, including state management, API integration, and responsive design.           </p>
+           <a href="https://github.com/shehxad-hussain?tab=repositories"><button className='btn p-4 w-1/3 h-full btn-sm'> View All Projects </button></a>
            </div>
           
          
@@ -47,10 +46,10 @@ function Projects() {
            
             <img className='group-hover:scale-125 transition-all duration-500' src={img3} alt="" />
             <div className='absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50'>
-            <a href="https://portfolio-one-ecru-41.vercel.app/"><span className='text-3xl uppercase text-gradient font-secondary'>Front End Website</span></a>
+            <a href="https://github.com/shehxad-hussain/web-dev-portfolio"><span className='text-3xl uppercase text-gradient font-secondary'>Front End Website</span></a>
               </div>
             <div className='absolute -bottom-full left-12 group-hover:bottom-16 transition-all duration-800 z-50'>
-            <a href="https://portfolio-one-ecru-41.vercel.app/"><span className='text-3xl text-white'>Portfolio</span></a>
+            <a href="https://github.com/shehxad-hussain/web-dev-portfolio"><span className='text-3xl text-white'>Portfolio</span></a>
             </div>
           </div>
         
