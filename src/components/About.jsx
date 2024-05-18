@@ -75,7 +75,7 @@ function About() {
                 </button>
               </a>
               <a
-                href="https://react-portfolio-seven-pink.vercel.app/"
+                href="https://github.com/shehxad-hussain/shehzad-portfolio"
                 className="text-gradient btn-link text-2xl"
               >
                 My portfolio
